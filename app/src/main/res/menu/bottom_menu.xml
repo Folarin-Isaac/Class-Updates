@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="@string/dashboard"
+        android:icon="@drawable/ic_dashboard"/>
+
+    <item
+        android:id="@+id/resourcesFragment"
+        android:title="@string/resources"
+        android:icon="@drawable/ic_resources"/>
+
+    <item
+        android:id="@+id/timetableFragment"
+        android:title="@string/timetable"
+        android:icon="@drawable/ic_timetable"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
