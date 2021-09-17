@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "313134540786",
+    "project_id": "classupdates-86457",
+    "storage_bucket": "classupdates-86457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313134540786:android:7d676b9755b1f96349ad6b",
+        "android_client_info": {
+          "package_name": "com.example.classupdates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313134540786-hn2bep6u41cucft9dth9ovap0flb20d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DF1zdP9F4gBgO8LVMb_Pi2ePehffBmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313134540786-hn2bep6u41cucft9dth9ovap0flb20d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

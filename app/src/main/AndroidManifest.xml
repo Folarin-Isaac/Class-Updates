@@ -11,7 +11,8 @@
         android:theme="@style/Theme.ClassUpdates">
         <activity
             android:name=".WelcomeActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
         <activity
             android:name=".ActivitySplash"
             android:exported="true"

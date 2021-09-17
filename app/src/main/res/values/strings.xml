@@ -14,4 +14,11 @@
     <string name="check_box_text"> Sign in as Admin </string>
     <string name="new_here"> New here? </string>
     <string name="sign_up"> Sign Up </string>
+
+    <!--SIGN UP SCREEN -->
+    <string name="first_name"> First name </string>
+    <string name="last_name"> Last name </string>
+    <string name="phone_number"> Phone Number </string>
+    <string name="confirm_password"> Confirm Password </string>
+    <string name="sign_up_text"> Sign up as an Admin </string>
 </resources>

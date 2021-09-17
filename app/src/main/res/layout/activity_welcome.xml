@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/relative_layout"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,17 +29,17 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_layout"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sign_in_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:backgroundTint="#F8FBFF"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
             app:tabIndicatorColor="@color/blue"
-            app:tabTextColor="@color/black"
-            app:tabSelectedTextColor="@color/blue"
-            android:layout_height="wrap_content"
             app:tabIndicatorHeight="3dp"
-            android:layout_below="@id/sign_in_image"/>
+            app:tabSelectedTextColor="@color/blue"
+            app:tabTextColor="@color/black" />
 
 
     </RelativeLayout>
