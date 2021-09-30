@@ -64,14 +64,14 @@
             app:layout_constraintTop_toBottomOf="@id/edit_last_name" />
 
         <EditText
-            android:id="@+id/edit_phoneNumber"
+            android:id="@+id/edit_matricNumber"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             android:layout_marginStart="@dimen/edit_text_margin"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="@dimen/edit_text_margin"
             android:background="@drawable/details_bg"
-            android:hint="@string/phone_number"
+            android:hint="@string/matric_number"
             android:inputType="phone"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
@@ -91,7 +91,7 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edit_phoneNumber">
+            app:layout_constraintTop_toBottomOf="@id/edit_matricNumber">
 
             <EditText
                 android:id="@+id/passwordEditText"

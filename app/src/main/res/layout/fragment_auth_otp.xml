@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:padding="16dp"
+        android:text="@string/verification_code"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_code_subtext"
+        android:textAlignment="center"
+        android:textColor="@color/blue" />
+
+    <com.mukesh.OtpView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:inputType="number"
+        android:itemBackground="@drawable/bg_otp_item"
+        android:textColor="color/white"
+        app:hideLineWhenFilled="true"
+        app:itemCount="5"
+        app:itemSpacing="6dp"
+        app:lineColor="@color/otp_item_state"
+        app:state_filled="true"
+        app:viewType="line"
+        tools:ignore="MissingClass" />
+
+
+
+
+    <Button
+        android:id="@+id/validate_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/validate"
+        android:textColor="@color/white" />
+</LinearLayout>
