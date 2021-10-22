@@ -4,14 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bg_otp_item.xml" value="0.371875" />
+        <entry key="app/src/main/res/drawable/details_bg.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/ic_login_image.xml" value="0.371875" />
+        <entry key="app/src/main/res/drawable/ic_resources.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/ic_show_password.xml" value="0.371875" />
         <entry key="app/src/main/res/drawable/main_activity_bg.xml" value="0.371875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_about_us.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_auth_otp.xml" value="0.34010416666666665" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_resources.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.35572916666666665" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.35572916666666665" />

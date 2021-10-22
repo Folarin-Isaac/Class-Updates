@@ -13,14 +13,14 @@
         android:backgroundTint="#FFFFFF">
 
         <EditText
-            android:id="@+id/edit_first_name"
+            android:id="@+id/edit_full_names"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             android:layout_marginStart="@dimen/edit_text_margin"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="@dimen/edit_text_margin"
             android:background="@drawable/details_bg"
-            android:hint="@string/first_name"
+            android:hint="@string/full_name"
             android:inputType="textEmailAddress"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
@@ -37,25 +37,25 @@
             android:layout_marginTop="15dp"
             android:layout_marginEnd="@dimen/edit_text_margin"
             android:background="@drawable/details_bg"
-            android:hint="@string/last_name"
+            android:hint="@string/department"
             android:inputType="textEmailAddress"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edit_first_name" />
+            app:layout_constraintTop_toBottomOf="@id/edit_full_names" />
 
         <EditText
-            android:id="@+id/edit_email_address"
+            android:id="@+id/edit_phone_number"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edit_text_height"
             android:layout_marginStart="@dimen/edit_text_margin"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="@dimen/edit_text_margin"
             android:background="@drawable/details_bg"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
             android:paddingStart="15dp"
             android:paddingEnd="15dp"
             android:textColor="@color/black"
@@ -78,7 +78,7 @@
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edit_email_address" />
+            app:layout_constraintTop_toBottomOf="@id/edit_phone_number" />
 
 
         <RelativeLayout

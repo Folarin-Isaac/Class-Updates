@@ -16,8 +16,8 @@
         android:icon="@drawable/ic_timetable"/>
 
     <item
-        android:id="@+id/settingsFragment"
-        android:title="@string/settings"
-        android:icon="@drawable/ic_settings"/>
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile"/>
 
 </menu>

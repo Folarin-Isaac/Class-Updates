@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class SettingsFragment: Fragment() {
+class ProfileFragment: Fragment() {
     private lateinit var mView: View
 
     override fun onCreateView(
@@ -14,7 +14,7 @@ class SettingsFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        mView = inflater.inflate(R.layout.fragment_settings, container, false)
+        mView = inflater.inflate(R.layout.fragment_profile, container, false)
 
         return mView
     }

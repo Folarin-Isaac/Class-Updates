@@ -3,6 +3,9 @@ package com.example.classupdates
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import com.example.classupdates.databinding.ActivityWelcomeBinding
 import kotlinx.android.synthetic.main.fragment_sign_in.*
 
