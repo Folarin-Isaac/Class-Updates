@@ -24,6 +24,7 @@
     <string name="sign_up_text"> Sign up as an Admin </string>
     <string name="phone_number"> Phone Number </string>
     <string name="department"> Department </string>
+    <string name="username"> Username </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- OTP SCREEN -->
@@ -34,5 +35,24 @@
     <string name="get_otp"> GET OTP </string>
     <string name="no_otp"> Didn\'t get the verification OTP? </string>
     <string name="resend"> Resend again</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="close"> Close </string>
+    <string name="confirm_code"> A confirmation code has been \n sent to your registered number </string>
+    <string name="confirmation_code"> Confirmation Code </string>
+    <string name="enter_code"> Enter Code </string>
+    <string name="reset_password"> Reset Password </string>
+    <string name="reset_text"> Reset and fill in your new \n password </string>
+    <string name="new_password"> New Password </string>
+    <string name="confirm_new_password"> Confirm New Password </string>
+    <string name="update"> Update </string>
+
+    <!-- PROFILE SCREEN -->
+    <string name="edit"> Edit </string>
+    <string name="acct_settings"> Account Settings </string>
+    <string name="change_password"> Change Password </string>
+    <string name="about_app"> About the App </string>
+    <string name="faq"> FAQS </string>
+    <string name="logout"> Logout </string>
 
 </resources>
